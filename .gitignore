@@ -1,0 +1,42 @@
+
+# Segredos e variaveis de ambiente
+.env
+.env.*
+!.env.example
+secrets/
+*credentials*
+*secret*
+*token*
+
+# Chaves privadas
+*.pem
+*.key
+*.p12
+*.pfx
+*.ppk
+
+# Dados locais
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Arquivos compilados
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.a
+
+# Configuracoes locais
+.vscode/
+.idea/
+
+# Sistema operacional e temporarios
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
